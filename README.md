@@ -1,5 +1,8 @@
 # Planit
-To use this app, fist open Pages in Mac OS (or Google Docs or Microsoft Word)
+** CURRENTLY HAVING SOME DIFFICULTIES
+THIS MAY NOT BE UP-TO-DATE **
+
+To use this app, fist open Pages in Mac OS
 
 Open tabs for the following docs, in order:
 1. Overall Vision

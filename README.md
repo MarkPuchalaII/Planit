@@ -1,12 +1,12 @@
 # Planit
+** This README is out of date and will be remade June 1, 2018. ** Have fun deciphering things fromt here.
+
 To use this app, fist open Pages in Mac OS (or Google Docs or Microsoft Word)
 
 Open tabs for the following docs, in order:
 1. Overall Vision
 2. Personal
 3. Career
-4. Runescape
-5. Miscellaneous Tasks
 6. Disruptions
 
 Each doc represents different agendas.

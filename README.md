@@ -1,5 +1,5 @@
 # Planit
-** This README is out of date and will be remade June 1, 2018. ** Have fun deciphering things fromt here.
+**This README is out of date and will be remade June 1, 2018.** Have fun deciphering things fromt here.
 
 To use this app, fist open Pages in Mac OS (or Google Docs or Microsoft Word)
 

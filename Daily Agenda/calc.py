@@ -1,0 +1,6 @@
+print(2.5 / 2.5, "cups of water")
+print(1 / 2.5, " TSP Sugar")
+print(2 / 2.5, " TSP Yeast")
+print(7 / 2.5, "cups of Flour")
+print(1.5 / 2.5, "TSP Salt")
+print(6 / 2.5, "TBSP Olive Oil")

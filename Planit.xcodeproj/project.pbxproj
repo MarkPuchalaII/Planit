@@ -95,6 +95,7 @@
 				TargetAttributes = {
 					C83E4309211812E8004B00DE = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -280,7 +281,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark2ai.Planit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -299,7 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark2ai.Planit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

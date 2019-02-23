@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -710,57 +709,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="192" height="164"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATv-7d-vte">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ATv-7d-vte">
                                 <rect key="frame" x="44" y="127" width="96" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DAILY AGENDA" id="PcG-8q-qg0">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBW-ir-Nh1">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KBW-ir-Nh1">
                                 <rect key="frame" x="18" y="102" width="148" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Today's Daily Tasks are:" id="bQn-Sc-LEJ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xmF-IB-gwz">
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xmF-IB-gwz">
                                 <rect key="frame" x="30" y="78" width="77" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Calendar" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Jao-8j-u1U">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3tE-VV-rHY">
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3tE-VV-rHY">
                                 <rect key="frame" x="30" y="38" width="130" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Github Daily Push" bezelStyle="regularSquare" imagePosition="left" inset="2" id="AHG-TC-pK8">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96S-Hy-XHO">
-                                <rect key="frame" x="30" y="18" width="127" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Write Cindi Quick" bezelStyle="regularSquare" imagePosition="left" inset="2" id="fHO-5C-tPj">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tV7-gK-uUE">
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tV7-gK-uUE">
                                 <rect key="frame" x="30" y="58" width="68" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Planner" bezelStyle="regularSquare" imagePosition="left" inset="2" id="jqG-hf-KG2">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="3tE-VV-rHY" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="32" id="1AC-LR-tm8"/>
+                            <constraint firstItem="ATv-7d-vte" firstAttribute="centerX" secondItem="KBW-ir-Nh1" secondAttribute="centerX" id="46j-Ov-ogO"/>
+                            <constraint firstItem="3tE-VV-rHY" firstAttribute="leading" secondItem="xmF-IB-gwz" secondAttribute="leading" id="JLR-ZK-9QK"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xmF-IB-gwz" secondAttribute="trailing" constant="20" symbolic="YES" id="JcV-bK-zLP"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3tE-VV-rHY" secondAttribute="trailing" constant="20" symbolic="YES" id="MRa-aQ-AMk"/>
+                            <constraint firstItem="ATv-7d-vte" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="PrM-N6-hQf"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tV7-gK-uUE" secondAttribute="trailing" constant="20" symbolic="YES" id="YOl-p5-TeR"/>
+                            <constraint firstItem="tV7-gK-uUE" firstAttribute="top" secondItem="xmF-IB-gwz" secondAttribute="bottom" constant="6" symbolic="YES" id="au5-ib-JMt"/>
+                            <constraint firstAttribute="bottom" secondItem="3tE-VV-rHY" secondAttribute="bottom" constant="40" id="c0F-Fy-i1m"/>
+                            <constraint firstItem="3tE-VV-rHY" firstAttribute="top" secondItem="tV7-gK-uUE" secondAttribute="bottom" constant="6" symbolic="YES" id="ede-2a-duT"/>
+                            <constraint firstItem="3tE-VV-rHY" firstAttribute="leading" secondItem="tV7-gK-uUE" secondAttribute="leading" id="kLL-ZR-2NB"/>
+                            <constraint firstItem="KBW-ir-Nh1" firstAttribute="top" secondItem="ATv-7d-vte" secondAttribute="bottom" constant="8" symbolic="YES" id="qRx-eE-7Pc"/>
+                            <constraint firstItem="ATv-7d-vte" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="46" id="rAe-Tq-ToG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
